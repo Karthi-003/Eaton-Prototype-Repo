@@ -1,0 +1,21 @@
+Things to be checked:
+1. Need to confirm Whether test result is obtained for Multi test
+   (This case we getting result data for every test but its not been logged due to case structure handled in code)
+2. Check whether Result data is obatained only for 1st test?
+   (In this case we need to try sending the command "I\S\RS232\Results=On" after completion of 1st test in order 
+    to get results from 2nd test)
+
+3. Need to Read the Current Active Program from I28 when new test is started
+4. Need to check Test Evaluation string (A/R/BR/SB etc..) from Result Data after completion of every test. 
+
+
+
+
+Queries
+1. How much time will be taken to complete single test?
+2. What will be the time taken to start 2nd test after completion of 1st test?
+3. How does RS232 1 differ from RS232 2?
+
+
+1.Check Test Evaluation codes and Program Evaluation code after completion of every test complete.
+123
